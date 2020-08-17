@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fullerton-booking/static/css/main.6a3f60d4.chunk.css",
+    "main.js": "/fullerton-booking/static/js/main.afccb77b.chunk.js",
+    "main.js.map": "/fullerton-booking/static/js/main.afccb77b.chunk.js.map",
+    "runtime-main.js": "/fullerton-booking/static/js/runtime-main.0044f1ba.js",
+    "runtime-main.js.map": "/fullerton-booking/static/js/runtime-main.0044f1ba.js.map",
+    "static/css/2.b56a0318.chunk.css": "/fullerton-booking/static/css/2.b56a0318.chunk.css",
+    "static/js/2.f91c8848.chunk.js": "/fullerton-booking/static/js/2.f91c8848.chunk.js",
+    "static/js/2.f91c8848.chunk.js.map": "/fullerton-booking/static/js/2.f91c8848.chunk.js.map",
+    "index.html": "/fullerton-booking/index.html",
+    "precache-manifest.8731d9faeece29f01f3df962e24e6c31.js": "/fullerton-booking/precache-manifest.8731d9faeece29f01f3df962e24e6c31.js",
+    "service-worker.js": "/fullerton-booking/service-worker.js",
+    "static/css/2.b56a0318.chunk.css.map": "/fullerton-booking/static/css/2.b56a0318.chunk.css.map",
+    "static/css/main.6a3f60d4.chunk.css.map": "/fullerton-booking/static/css/main.6a3f60d4.chunk.css.map",
+    "static/js/2.f91c8848.chunk.js.LICENSE.txt": "/fullerton-booking/static/js/2.f91c8848.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0044f1ba.js",
+    "static/css/2.b56a0318.chunk.css",
+    "static/js/2.f91c8848.chunk.js",
+    "static/css/main.6a3f60d4.chunk.css",
+    "static/js/main.afccb77b.chunk.js"
+  ]
+}
