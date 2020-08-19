@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fullerton-booking/precache-manifest.8731d9faeece29f01f3df962e24e6c31.js"
+  "/fullerton-booking/precache-manifest.ea617ec6adf9dfe076cb6122f8b300cc.js"
 );
 
 self.addEventListener('message', (event) => {
