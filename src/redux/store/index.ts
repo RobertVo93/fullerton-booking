@@ -9,6 +9,7 @@ import { userReducer } from "./user/reducers";
 import { requestReducer } from "./request/reducers";
 import { updateRequest } from "./request/actions";
 import { commonAPI } from "../../service/common-api.service";
+import { logoutUser } from "./user/actions";
 //define persistConfig
 const persistConfig = {
 	key: 'root',
@@ -48,6 +49,10 @@ const middlewareConfig = {
 				return res;
 			},
 			error: function ({ getState, dispatch, getSourceAction } : any, error : any) {
+				if(error.response && error.response.status === 401)
+				{
+					dispatch(logoutUser());
+				}
 				numberOfRequest--;
 				dispatch(updateRequest(numberOfRequest));
 				throw error;
